@@ -1,0 +1,167 @@
+# ============================================================
+# EcoChallenge — React + TypeScript + Vite  .gitignore
+# ============================================================
+
+
+# ── Dependencies ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+
+# ── Build outputs ────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+out/
+.output/
+
+
+# ── Vite ─────────────────────────────────────────────────────
+.vite/
+vite.config.ts.timestamp-*
+
+
+# ── TypeScript ───────────────────────────────────────────────
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+
+# ── Test coverage & reports ──────────────────────────────────
+coverage/
+.nyc_output/
+htmlcov/
+junit.xml
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+
+# ── Environment & secrets ────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging
+.env.*.local
+*.pem
+*.key
+*.crt
+secrets.json
+
+
+# ── Logs ─────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ── Package manager lock files (keep only one) ───────────────
+# Uncomment the lock file your project does NOT use to ignore it.
+# yarn.lock
+# pnpm-lock.yaml
+
+
+# ── OS-generated files ───────────────────────────────────────
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ── Editor & IDE ─────────────────────────────────────────────
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# JetBrains (WebStorm, IntelliJ …)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# ── Cache directories ────────────────────────────────────────
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.prettiercache
+*.tscache
+.turbo/
+.nx/cache/
+
+
+# ── Temporary & misc ─────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+*.patch
+*.rej
+
+
+# ── Storybook ────────────────────────────────────────────────
+storybook-static/
+.storybook/node_modules/
+
+
+# ── Vercel / Netlify / deployment artefacts ──────────────────
+.vercel/
+.netlify/
+.serverless/
+.now/
+
+
+# ── Docker ───────────────────────────────────────────────────
+# (include if you ever add Docker support)
+# .dockerignore is separate, but keep build context clean
+docker-compose.override.yml
+
+
+# ── Miscellaneous generated files ────────────────────────────
+stats.html          # vite-bundle-visualizer output
+bundle-stats.json
+lighthouse-report/
