@@ -13,7 +13,7 @@ Unsere App richtet sich an Jugendliche und zeigt, dass Nachhaltigkeit im Alltag 
 Dieses Projekt wird mit modernen Web-Technologien entwickelt, um eine schnelle und reaktive Nutzererfahrung zu bieten:
 
 - **Frontend Framework:** [React](https://reactjs.org/) (mit TypeScript)
-- **Build-Tool: ** [Vite] (https://vitejs.dev/)
+- **Build-Tool:** [Vite](https://vitejs.dev/)
 - **Styling:** TailwindCSS
 - **State Management:** React Hooks
 - **Backend (Geplant):** Eine einfache Datenbank-Anbindung (z.B. Supabase oder Firebase) für das Leaderboard und die Nutzerprofile.
